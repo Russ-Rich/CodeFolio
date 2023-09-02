@@ -1,0 +1,95 @@
+// Base settings
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-family: "Arial", sans-serif;
+
+// Reset some default browser styles
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+// General styling
+body {
+	font-family: $font-family;
+	background-color: #e2f604;
+	color: $secondary-color;
+}
+
+// Header
+header {
+	background-color: $primary-color;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+
+	img {
+		border-radius: 50%;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+}
+
+// Navigation
+nav {
+	background-color: $secondary-color;
+	color: white;
+	padding: 1rem;
+
+	h2 {
+		margin-bottom: 0.5rem;
+	}
+
+	ul {
+		list-style: none;
+
+		li {
+			margin: 0.2rem 0;
+
+			a {
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+// Main Content
+main {
+	padding: 1rem;
+
+	section {
+		margin-bottom: 2rem;
+
+		h2 {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+		}
+
+		article {
+			background-color: white;
+			padding: 1rem;
+			border-radius: 0.5rem;
+		}
+	}
+}
+
+// Footer
+footer {
+	background-color: $primary-color;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+}
