@@ -436,6 +436,7 @@ main {
 	padding-bottom: 4px;
 	padding-left: 7px;
 	color: #ffdb70;
+	cursor: pointer;
 }
 
 .social-item .social-link {
