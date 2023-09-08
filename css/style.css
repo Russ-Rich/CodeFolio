@@ -746,10 +746,12 @@ main {
 	grid-template-columns: 1fr;
 	gap: 5px;
 	margin-bottom: 10px;
+	justify-content: center;
 }
 
 .project-item {
 	display: none;
+	justify-self: center;
 }
 
 .project-item.active {
@@ -804,7 +806,7 @@ main {
 .project-img img {
 	width: 200px;
 	height: 200px;
-	object-fit: cover;
+	object-fit: fill;
 	transition: var(--transition-1);
 }
 
